@@ -37,7 +37,7 @@ crons = ["*/5 * * * *", "0 */6 * * *"]
 # and are intentionally absent from this file.
 # ═══════════════════════════════════════════════════════════════
 [vars]
-WORKER_NAME = "line-harness"
+WORKER_NAME = "line-harness-oss"
 ADMIN_PAGES_PROJECT = "line-harness-admin"
 LIFF_PAGES_PROJECT = "line-harness-liff"
 D1_DATABASE_ID = "48150555-f9c6-48f5-a788-786c431e22c5"
@@ -75,7 +75,7 @@ crons = ["*/5 * * * *", "0 */6 * * *"]
 # the prod resources. Secrets (CF_API_TOKEN, ADMIN_API_KEY) live in the
 # production secret store, set via `wrangler secret put --env production`.
 [env.production.vars]
-WORKER_NAME = "your-worker-name"
+WORKER_NAME = "line-harness-oss"
 ADMIN_PAGES_PROJECT = "line-harness-admin"
 LIFF_PAGES_PROJECT = "line-harness-liff"
 D1_DATABASE_ID = "48150555-f9c6-48f5-a788-786c431e22c5"
