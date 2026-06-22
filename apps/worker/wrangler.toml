@@ -22,7 +22,7 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "line-harness"
-database_id = "YOUR_DEV_D1_DATABASE_ID"
+database_id = "48150555-f9c6-48f5-a788-786c431e22c5"
 
 [[r2_buckets]]
 binding = "IMAGES"
@@ -40,7 +40,7 @@ crons = ["*/5 * * * *", "0 */6 * * *"]
 WORKER_NAME = "line-harness"
 ADMIN_PAGES_PROJECT = "line-harness-admin"
 LIFF_PAGES_PROJECT = "line-harness-liff"
-D1_DATABASE_ID = "YOUR_DEV_D1_DATABASE_ID"
+D1_DATABASE_ID = "48150555-f9c6-48f5-a788-786c431e22c5"
 MANIFEST_URL = "https://github.com/Shudesu/line-harness-oss/releases/latest/download/release-manifest.json"
 WORKER_PUBLIC_URL = "https://line-harness.workers.dev"
 ADMIN_PUBLIC_URL = "https://line-harness-admin.pages.dev"
@@ -61,8 +61,8 @@ binding = "ASSETS"
 
 [[env.production.d1_databases]]
 binding = "DB"
-database_name = "line-crm"
-database_id = "YOUR_D1_DATABASE_ID"
+database_name = "line-harness"
+database_id = "48150555-f9c6-48f5-a788-786c431e22c5"
 
 [[env.production.r2_buckets]]
 binding = "IMAGES"
@@ -78,7 +78,7 @@ crons = ["*/5 * * * *", "0 */6 * * *"]
 WORKER_NAME = "your-worker-name"
 ADMIN_PAGES_PROJECT = "line-harness-admin"
 LIFF_PAGES_PROJECT = "line-harness-liff"
-D1_DATABASE_ID = "YOUR_D1_DATABASE_ID"
+D1_DATABASE_ID = "48150555-f9c6-48f5-a788-786c431e22c5"
 MANIFEST_URL = "https://github.com/Shudesu/line-harness-oss/releases/latest/download/release-manifest.json"
 WORKER_PUBLIC_URL = "https://your-worker-name.workers.dev"
 ADMIN_PUBLIC_URL = "https://line-harness-admin.pages.dev"
